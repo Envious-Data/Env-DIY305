@@ -1,0 +1,24 @@
+{
+    "layout": {
+        "alternation": "rows",
+        "hspace": "5mm",
+        "vspace": "5mm",
+        "rows": "4",
+        "cols": "5",
+        "baketext": "False"
+    },
+    "tabs": {
+        "type": "fixed"
+    },
+    "framing": {
+        "type": "frame"
+    },
+    "copperfill": {
+        "type": "solid"
+    },
+    "post": {
+        "copperfill": "True",
+        "millradius": "1mm",
+        "refillzones": "True"
+    }
+}
