@@ -548,12 +548,12 @@
     (property "ki_description" "Generic connector, double row, 02x07, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)")
     (property "ki_keywords" "connector")
     (path "/1f3c3a0a-d7b5-4640-bd67-3de04a30229f")
-    (attr through_hole)
+    (attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard)
     (fp_text reference "J4" (at 3.81 -2.33) (layer "F.SilkS") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 679d58b4-69ca-4335-8fd8-7dabdba6d4fb)
     )
-    (fp_text value "Conn_02x07_Counter_Clockwise" (at 3.81 17.57) (layer "F.Fab") hide
+    (fp_text value "" (at 3.81 17.57) (layer "F.Fab") hide
         (effects (font (size 1 1) (thickness 0.15)))
       (tstamp 9f15ca30-5f38-4db8-ab18-47bc5e417ee5)
     )
@@ -583,11 +583,6 @@
       (net 12 "C5") (pinfunction "Pin_13") (pintype "passive") (tstamp df4d6594-6135-41c7-82f2-8dfbd7513164))
     (pad "14" thru_hole circle (at 7.62 0) (size 1.2 1.2) (drill 0.6) (layers "*.Cu" "*.Mask")
       (net 11 "C4") (pinfunction "Pin_14") (pintype "passive") (tstamp 70b1dc74-e0c6-4a76-b34b-4fe99a61657c))
-    (model "${KICAD6_3DMODEL_DIR}/Package_DIP.3dshapes/DIP-14_W7.62mm.wrl"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (footprint "LED_SMD:LED_0201_0603Metric" (layer "F.Cu")
