@@ -30,4 +30,4 @@ fp-info-cache
 *.lck
 
 #extras
-!production/*
+!*/production/*
