@@ -1,20 +1,17 @@
 {
     "layout": {
         "hspace": "3mm",
-        "vspace": "2mm",
+        "vspace": "3mm",
         "rows": "2",
-        "cols": "5"
+        "cols": "4"
     },
     "tabs": {
-        "type": "fixed"
+        "type": "fixed",
+        "vwidth": "2mm",
+        "hwidth": "2mm",
+        "hcount": "2"
     },
     "cuts": {
         "type": "mousebites"
-    },
-    "framing": {
-        "type": "railslr"
-    },
-    "copperfill": {
-        "type": "hatched"
     }
 }
